@@ -1,0 +1,8 @@
+<!-- components/content/content.wxml -->
+<view>
+	<home class="home" wx:if="{{currentTabIndex===0}}" songList="{{songList}}" />
+	<song wx:elif="{{currentTabIndex===1}}" />
+	<about wx:elif="{{currentTabIndex===2}}" />
+	<view wx:if="{{isLoading}}">加载中</view>
+</view>
+

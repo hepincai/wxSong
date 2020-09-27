@@ -1,0 +1,18 @@
+/* components/tabbar/tabbar.wxss */
+.tabbar {
+  display: flex;
+  .tabbar-item {
+    flex: 1;
+  }
+  .tabbar-item {
+    border-bottom: 5rpx solid #ddd;
+  }
+  .selected {
+    color: red;
+    border-bottom: 5rpx solid red;
+    // outline-width: 2rpx;
+    // outline-style: solid;
+    // outline-color: red blue green pink;
+    // z-index: 9;
+  }
+}

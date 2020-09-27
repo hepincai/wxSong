@@ -1,0 +1,14 @@
+<!-- components/tabbar/tabbar.wxml -->
+<!-- <text>components/tabbar/tabbar.wxml</text> -->
+<view class="tabbar bar-pos">
+	<tabbar-item
+	 wx:for="{{tabList}}"
+	 wx:key="index"
+	 class="tabbar-item {{item.isActive?'selected':''}}"
+	 bindtap="tabtap"
+	 data-index="{{item.id}}"
+	>
+		<view slot="text">{{item.name}}</view>
+	</tabbar-item>
+</view>
+

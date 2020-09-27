@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab": "../../components/tabbar/tabbar",
+    "content": "../../components/content/content"
+  }
+}

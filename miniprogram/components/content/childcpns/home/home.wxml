@@ -1,0 +1,33 @@
+<!-- components/content/childcpns/home/home.wxml -->
+<wxs module="handleModule">
+	function getSmallImg(baseUrl,picLink){
+	return baseUrl+"/small/"+picLink
+	}
+	function sliceTime(time){
+	return time.slice(0,10)
+	}
+	module.exports = {
+	getSmallImg:getSmallImg,
+	sliceTime:sliceTime
+	}
+</wxs>
+<view class="home-song-list">
+	<song-item wx:for="{{songList}}" wx:key="index">
+		<image
+		 slot="img"
+		 class="song-img"
+		 src="{{handleModule.getSmallImg(baseUrl,item.picLink)}}"
+		 mode="widthFix"
+		 binderror=""
+		 bindload=""
+		/>
+		<view
+		 slot="text"
+		 selectable="true"
+		 space="false"
+		 decode="false"
+		>{{item.title}}
+		</view>
+	</song-item>
+</view>
+

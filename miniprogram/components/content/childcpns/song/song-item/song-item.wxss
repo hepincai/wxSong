@@ -1,0 +1,3 @@
+.song-item {
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,12 @@
+/* components/tabbar-item/tabbar-item.wxss */
+.tabbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  height: 100rpx;
+  > .tabbar-item-text {
+    text-align: center;
+    line-height: 50rpx;
+  }
+}

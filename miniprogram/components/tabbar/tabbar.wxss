@@ -1,0 +1,17 @@
+/* components/tabbar/tabbar.wxss */
+.tabbar {
+  display: flex;
+}
+
+.tabbar .tabbar-item {
+  flex: 1;
+}
+
+.tabbar .tabbar-item {
+  border-bottom: 5rpx solid #ddd;
+}
+
+.tabbar .selected {
+  color: red;
+  border-bottom: 5rpx solid red;
+}

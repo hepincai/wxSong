@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "song-item": "../song/song-item/song-item"
+  }
+}

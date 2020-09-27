@@ -1,0 +1,6 @@
+<!-- components/tabbar-item/tabbar-item.wxml -->
+<!-- <text>components/tabbar-item/tabbar-item.wxml</text> -->
+<view class="tabbar-item">
+	<slot name="text" class="tabbar-item-text" />
+</view>
+

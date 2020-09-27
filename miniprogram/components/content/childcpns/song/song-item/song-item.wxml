@@ -1,0 +1,6 @@
+<!-- components/content/childcpns/song/song-item/song-item.wxml -->
+<view class="song-item" style="width:375rpx">
+	<slot name="img" />
+	<slot name="text" class="text" />
+</view>
+

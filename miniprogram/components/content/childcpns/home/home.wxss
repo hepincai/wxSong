@@ -1,0 +1,19 @@
+.home-song-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 750rpx;
+  margin-bottom: 100rpx;
+}
+
+.home-song-list song-item {
+  justify-content: center;
+  align-items: stretch;
+}
+
+.home-song-list song-item image {
+  width: 100%;
+}
+
+.home-song-list view {
+  text-align: center;
+}

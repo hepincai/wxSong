@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "tab": "../../../tabbar/tabbar",
+    "song-item": "./song-item/song-item"
+  }
+}
